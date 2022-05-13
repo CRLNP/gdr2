@@ -121,19 +121,20 @@ output:
 
 [*Slow Science*](https://slowscience.be/the-slow-science-manifesto-2/) ![](images/snails.png)
 
-[*Open Science*](https://www.cos.io/)  
+[*Open Science*](https://osf.io/)  
 
 <br>
 
-<div style="text-align:center;">
-<iframe src="https://osf.io/"></iframe>
-</div>
+<center>
+![](images/osf.png)
+</center>
 
-<div class="footer-note">
+<br>
+
 - Gouvernementales: [Politique des trois organismes sur la gestion des données de recherche](https://www.science.gc.ca/eic/site/063.nsf/fra/h_97610.html)  
 - Nationales et institutionnelles: [Alliance de recherche numérique du Canada](https://alliancecan.ca/fr/services/gestion-des-donnees-de-recherche)  
 - Éditeurs et d'associations scientifiques (accès aux données et à la documentation): [DA-RT Principles (American Political Science Association)](https://www.dartstatement.org/), [AJPS Verification Policy](https://ajps.org/ajps-verification-policy/), [Peer Reviewers' Openness Initiative (psychologie)](https://www.opennessinitiative.org/).  
-</div>
+
 
 ## 7. Prioriser activités de GDR
 
@@ -208,8 +209,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 </center>
 
 <div class="footer-note">  
-- [*info: DataverseNO - Prepare your data*](https://site.uit.no/dataverseno/deposit/prepare//)  
-  
+[*info: DataverseNO - Prepare your data*](https://site.uit.no/dataverseno/deposit/prepare//)  
 </div>  
 
 
@@ -328,10 +328,10 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 **N.B.** Toujours bien vérifier la présence d'erreurs ou de pertes d'information suite à une conversion de formats ou une compression de fichiers.   
 
 <div class="footer-note">
-[*Recommended formats (UK Data Service)*](https://ukdataservice.ac.uk/learning-hub/research-data-management/format-your-data/recommended-formats/)  
-[*How to FAIR - File Formats*](https://www.howtofair.dk/how-to-fair/file-formats/#while-you-work)  
-[*Data formats for preservation*](https://www.openaire.eu/data-formats-preservation-guide)  
-[*DANS - Preferred Formats*](https://dans.knaw.nl/en/file-formats/)  
+- [*Recommended formats (UK Data Service)*](https://ukdataservice.ac.uk/learning-hub/research-data-management/format-your-data/recommended-formats/)  
+- [*How to FAIR - File Formats*](https://www.howtofair.dk/how-to-fair/file-formats/#while-you-work)  
+- [*Data formats for preservation*](https://www.openaire.eu/data-formats-preservation-guide)  
+- [*DANS - Preferred Formats*](https://dans.knaw.nl/en/file-formats/)  
 </div>
 
 ## 2.2. Bonne pratique #2: Organiser!
@@ -404,9 +404,9 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 
 <div class="footer-note ">
-- [Data Backup Options, uscert](https://www.cisa.gov/uscert/sites/default/files/publications/data_backup_options.pdf)  
-- [Ensure the reliability of your storage media](https://old.dataone.org/best-practices/ensure-reliability-your-storage-media)  
-- [UK Data Service, Organising, storing and securely handling research data](https://dam.ukdataservice.ac.uk/media/604451/2016-06-15_storing_data.pdf)  
+- [*Data Backup Options, uscert*](https://www.cisa.gov/uscert/sites/default/files/publications/data_backup_options.pdf)  
+- [*Ensure the reliability of your storage media*](https://old.dataone.org/best-practices/ensure-reliability-your-storage-media)  
+- [*UK Data Service, Organising, storing and securely handling research data*](https://dam.ukdataservice.ac.uk/media/604451/2016-06-15_storing_data.pdf)  
 </div>
 
 
@@ -443,9 +443,9 @@ Fichiers rendus illibles par l'utilisation d'algorithmes qui codent les données
 
 <div class="footer-note ">
 N.B. L'UdeM n'offre pas d'espace de stockage sécurisé.  
-[Best Practices for Data Analysis of Confidential Data](https://ria.princeton.edu/human-research-protection/data/best-practices-for-data-a)  
-[Encryption for Researchers](https://osf.io/nx8km/)  
-[Comparison of Disk Encryption Software](https://en.wikipedia.org/wiki/Comparison_of_disk_encryption_software)  
+- [*Best Practices for Data Analysis of Confidential Data*](https://ria.princeton.edu/human-research-protection/data/best-practices-for-data-a)  
+- [*Encryption for Researchers*](https://osf.io/nx8km/)  
+- [*Comparison of Disk Encryption Software*](https://en.wikipedia.org/wiki/Comparison_of_disk_encryption_software)  
 </div>
 
 
@@ -477,8 +477,6 @@ N.B. L'UdeM n'offre pas d'espace de stockage sécurisé.
 
 <br>
 
-<br>
-
 <div class="footer-note ">
 [What is Metadata (with examples)](https://dataedo.com/kb/data-glossary/what-is-metadata)
 </div>
@@ -507,12 +505,12 @@ N.B. L'UdeM n'offre pas d'espace de stockage sécurisé.
 N.B. Pour les données secondaires, inclure toute l’information nécessaire sur la source des données primaires pour en assurer la traçabilité ([*provenance*](https://ardc.edu.au/resources/working-with-data/data-provenance/))
 <br>
 
-<div class="footer-note ">
+<div class="footer-note">
 **Modèles README**:  
-- [UQTR](https://uqtr.libguides.com/ld.php?content_id=35593298)   
-- [Illinois](https://www.ideals.illinois.edu/handle/2142/96210)   
-- [Cornell - Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)   
-- [MIT's README file & folder schema example](https://library.concordia.ca/research/data/data-files.php?guid=directory)
+- [UQTR](https://uqtr.libguides.com/ld.php?content_id=35593298)  
+- [Illinois](https://www.ideals.illinois.edu/handle/2142/96210)  
+- [Cornell - Guide to writing "readme" style metadata](https://data.research.cornell.edu/content/readme)  
+- [MIT's README file & folder schema example](https://library.concordia.ca/research/data/data-files.php?guid=directory)  
 </div>
 
 ## 2.3. Bonne pratique #3: Documenter!
@@ -539,10 +537,10 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 <br>
 <br>
 
-<div class="footer-note ">
-- [Codebook Cookbook - Excel](http://www.medicine.mcgill.ca/epidemiology/joseph/pbelisle/CodebookCookbook/CodebookCookbook.pdf)  
-- [SPSS TUTORIALS: CREATING A CODEBOOK](https://libguides.library.kent.edu/spss/codebooks)  
-- [How to Make a Data Dictionary](How to Make a Data Dictionary)  
+<div class="footer-note">
+- [*Codebook Cookbook - Excel*](http://www.medicine.mcgill.ca/epidemiology/joseph/pbelisle/CodebookCookbook/CodebookCookbook.pdf)  
+- [*SPSS TUTORIALS: CREATING A CODEBOOK*](https://libguides.library.kent.edu/spss/codebooks)  
+- [*How to Make a Data Dictionary*](How to Make a Data Dictionary)  
 - [Métadonnées et documentation des enquêtes dans Odesi](http://odesi2.scholarsportal.info/webview/)    
 - [Agency for Healthcare Research and Quality -*What is a codebook?*](https://www.icpsr.umich.edu/icpsrweb/content/shared/ICPSR/faqs/what-is-a-codebook.html)  
 - [University of Wisconsin Data Services - *Data Management: Data Dictionaries*](https://www.youtube.com/watch?v=Fe3i9qyqPjo)(video)  
@@ -604,17 +602,16 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 
 
 <div class="footer-note">
-[DRYAD - FAIR Data](https://datadryad.org/stash/best_practices)  
-[FAIR Principles](https://www.go-fair.org/fair-principles/)  
-[Assessing teh FAIRness of Data](Assessing the FAIRness of data)
-[Outils pour les données sensibles du réseau Portage](https://portagenetwork.ca/fr/nouvelles/nouveaux-outils-pour-les-donnees-sensibles/)  
+- [*DRYAD - FAIR Data*](https://datadryad.org/stash/best_practices)  
+- [*FAIR Principles*](https://www.go-fair.org/fair-principles/)  
+- [*Assessing the FAIRness of Data*](Assessing the FAIRness of data)
+- [Outils pour les données sensibles du réseau Portage](https://portagenetwork.ca/fr/nouvelles/nouveaux-outils-pour-les-donnees-sensibles/)  
 </div>
 
 ## 2.4. Bonne pratique #5: Diffuser!
 
-### Conformité aux lois et à l'éthique   
+### Conformité aux lois et à l'éthique: données sensibles
 
-#### La délicate question des données sensibles    
 - Difficile d'avoir l'heure juste en matière de protection de la confidentialité.    
 - Différentes perspectives parfois contradictoires: approche normative (EPTC2 - politique fédérale d'éthique de la recherche) vs juridique (droit relatif à chaque pays ou province - surtout provincial).    
 
@@ -629,28 +626,25 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 - Pour des données (même anonymisées) receuillies dans le cadre d'une recherche faites auprès d'individus où le formulaire de consentement ne mentionnait pas explicitement le partage et la rediffusion:
 
   - Il faut aller chercher le consentement auprès des participants (re-consent).
-  - Si c'est impossible, obligation d'aller chercher l'approbation du comité d'éthique en justifiant cette dérogation.
+  - Si c'est impossible, obligation d'aller chercher l'approbation du comité d'éthique en justifiant cette dérogation (selon sensibilité, vulnérabilité...).  
 
-**Conclusions**:  
+**Donc**:  
 
-- Pas de consentement + pas d'approbation du CER = pas de dépôt.  
-- Le CER a l'obligation de statuer, mais le "fardeau éthique" repose sur les épaules du chercheur (les décisions peuvent dépendre de différents facteurs dont la sensibilité , la vulnérabilité des participants...).  
+- Pas de **consentement** + pas d'**approbation** du CER = pas de partage  
 
 = Nécessité de prévoir le **partage des données dès le début du projet**!  
 
 
 <div class="footer-note">
-[EPTC2 - Éthique de la recherche avec des êtres humains](https://ethics.gc.ca/fra/documents/tcps2-2018-fr-interactive-final.pdf)   
-[Versement des données existantes dans des dépôts publics](https://ethics.gc.ca/fra/documents/guidance_depositing_data-fr.pdf)  
-[Commission d'accès à l'information - Renseignements personnels](https://www.cai.gouv.qc.ca/chercheurs/informations-complementaires/)  
-[Politiques et règlements de l'Université de Montréal](https://recherche.umontreal.ca/responsabilite-en-recherche/ethique-humaine/politiques-applicables/)  
-[Outils pour les données sensibles du réseau Portage](https://portagenetwork.ca/fr/nouvelles/nouveaux-outils-pour-les-donnees-sensibles/)  
+- [*EPTC2 - Éthique de la recherche avec des êtres humains*](https://ethics.gc.ca/fra/documents/tcps2-2018-fr-interactive-final.pdf)   
+- [*Versement des données existantes dans des dépôts publics*](https://ethics.gc.ca/fra/documents/guidance_depositing_data-fr.pdf)  
+- [Commission d'accès à l'information - Renseignements personnels](https://www.cai.gouv.qc.ca/chercheurs/informations-complementaires/)  
+- [Politiques et règlements de l'Université de Montréal](https://recherche.umontreal.ca/responsabilite-en-recherche/ethique-humaine/politiques-applicables/)  
+- [Outils pour les données sensibles du réseau Portage](https://portagenetwork.ca/fr/nouvelles/nouveaux-outils-pour-les-donnees-sensibles/)  
 </div>
 
 
-##  Merci!
-
-### Pour aller plus loin...
+## Pour aller plus loin...
 
 
 

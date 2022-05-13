@@ -1,7 +1,9 @@
 .footer-note {
     background-color: #F8F8FF;
     width:100%;
+    align:bottom;
 float:bottom;
+align:bottom;
     font-size: 0.5em;
 }
 
