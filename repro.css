@@ -1,0 +1,58 @@
+.footer-note {
+    background-color: #F8F8FF;
+    width:100%;
+float:bottom;
+    font-size: 0.5em;
+}
+
+.small { font-size: 90% }
+.footnotesize { font-size: 80% }
+.scriptsize { font-size: 70% }
+.tiny { font-size: 60% }
+.verytiny { font-size: 40% }
+
+.justify-right {
+  text-align: right;
+  float: right;
+  clear: right;
+}
+
+.justify-rightb {
+  text-align: right;
+}
+
+.large { 
+    font-size: 120% ;
+    color: #317EAC;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+text-align: center;
+    flex: 1 1 auto;
+}
+
+.content-box-blue,
+.content-box-border {
+    border-radius: 5px;
+    margin: 0 0 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+.content-box-border {
+  border-style: solid;
+  /* set opacity in last decimal value of rgba */
+  border-color: rgba(000, 107, 182, .85)
+}
+
+.content-box { 
+    box-sizing: content-box;
+    	background-color: #e2e2e2;
+}
+
+h1, h2, h3 {
+  color: #006BB6;
+  line-height: 0.9em;
+}
