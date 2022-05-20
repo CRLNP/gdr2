@@ -434,14 +434,9 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ***Encryption* -> Chiffrement**: Fichiers rendus illibles par l'utilisation d'algorithmes qui codent les données afin de les protéger grâce à un mot de passe. Sans le mot de passe, personne ne peut accéder au contenu.   
 
- - Toutes données sensibles devraient être encryptées, qu'elles soient sur un portable, une clé USB, espace nuage.   
- 
- > "Research files with PII or other confidential information should always be compressed and encrypted before they are transferred from one location to another. This is especially important when transferring files as attachments to email or as files on physical media such as CDs or flash memory drives."  
- 
  - La protection d'un portable par mot de passe n'est pas suffisante.  
-
-
-
+ - Toutes données sensibles devraient être encryptées, qu'elles soient sur un portable, une clé USB, espace nuage.   
+ - Anonymiser le plus tôt possible.    
 
 <div class="justify-right"> 
 ![](images/Forside_DigitalBevaring.png)
@@ -465,8 +460,8 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 <br>
 
 <div class="footer-note ">
-N.B. L'UdeM n'offre pas d'espace de stockage sécurisé.  
 - [*Best Practices for Data Analysis of Confidential Data*](https://ria.princeton.edu/human-research-protection/data/best-practices-for-data-a)  
+- [EPTC 2 – Chapitre 5 : Respect de la vie privée et confidentialité](https://ethics.gc.ca/fra/tcps2-eptc2_2018_chapter5-chapitre5.html)  
 - [*Encryption for Researchers*](https://osf.io/nx8km/)  
 - [*Comparison of Disk Encryption Software*](https://en.wikipedia.org/wiki/Comparison_of_disk_encryption_software)  
 </div>
@@ -599,6 +594,7 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 - Existe différents outils selon le langage de programmation utilisé (R, Python) mais le concept reste que l’on mélange dans un même document des blocs de code exécutable avec de la rédaction de texte à l’aide d’un langage de balisage (Markdown ou LaTeX) pour générer des documents en différents formats (word, html, pdf). 
 
 <div class="footer-note">
+
 [Intro à Rstudio](https://crlnp.github.io/intro-Rstudio/#/)  
 [Atelier RMarkdown](https://crlnp.github.io/intro-rmarkdown/)  
 [Capsules intro à R sur Google Colab](https://www.youtube.com/watch?v=66GQA9pa9i4&list=PL1K-7kmyXRXEGXrKXmMZ02IG1YvtKV-q6 )  
