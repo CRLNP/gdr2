@@ -65,10 +65,10 @@ output:
 
 ## 2. Gestion des données et cycle de vie de la recherche
 
-- Ensemble d’activités qui traitent de la collecte, l’organisation, la documentation, la préservation et la diffusion des données de recherche.
-- Des standards et outils se développent pour faciliter chaque étape du processus
-- Certains peuvent nécessiter des compétences techniques plus avancées, mais le but n’est pas de se fixer des objectifs inateignables, c’est  d’améliorer ses pratiques.
-- Il faut passer outre l’impression de perdre son temps, même si ce travail ingras est encore malheureusement peu reconnu dans beaucoup de disciplines.
+- Ensemble d’activités qui traitent de la collecte, l’organisation, la documentation, la préservation et la diffusion des données de recherche.  
+- Des standards et outils se développent pour faciliter chaque étape du processus.  
+- Certains peuvent nécessiter des compétences techniques plus avancées, mais le but n’est pas de se fixer des objectifs inateignables, c’est  d’améliorer ses pratiques.  
+- Il faut passer outre l’impression de perdre son temps, même si ce travail est encore malheureusement peu reconnu dans beaucoup de disciplines.  
 
 <div style="text-align:center;">
 ![](images/cycle.png)
@@ -173,9 +173,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 [*Research Data Exit Checklist*](https://www.ideals.illinois.edu/handle/2142/111616)  
 </div> 
 
-## 2.2. Bonne pratique #2: Organiser!
-
-</br> 
+## 2.2. Bonne pratique #2: Organiser!  
 
 ### S’armer contre le chaos!  
 
@@ -198,6 +196,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 ###     2.2.5. Structure des données  
 ###     2.2.6. Stockage/préservation  
 
+</br>
 </br>
 </br>
 </br>
@@ -404,7 +403,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 <div class="verytiny "> 
 [MonsieurTI](https://monsieurti.ca/regle-3-2-1-sauvegarde-efficace/)
 </div>
- **Chaque option a ses avantages/désavantages: accèssibilité, sécurité, espace, obsolescence, perennité**  
+ **Chaque option a ses avantages et désavantages: accèssibilité, sécurité, espace, obsolescence, perennité**  
 </center>
 
 <br> 
@@ -620,7 +619,7 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 - [*DRYAD - FAIR Data*](https://datadryad.org/stash/best_practices)  
 - [*FAIR Principles*](https://www.go-fair.org/fair-principles/)  
 - [*Assessing the FAIRness of Data*](Assessing the FAIRness of data)
-- [Outils pour les données sensibles du réseau Portage](https://portagenetwork.ca/fr/nouvelles/nouveaux-outils-pour-les-donnees-sensibles/)  
+- [OSF - Open Science Framework](https://osf.io/)  
 </div>
 
 ## 2.4. Bonne pratique #4: Diffuser!
