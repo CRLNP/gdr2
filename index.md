@@ -194,7 +194,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 </br>
 
 ###     2.2.1. Structure de dossiers  
-###     2.2.2. Noms de fichiers/dossiers  
+###     2.2.2. Noms de fichiers 
 ###     2.2.3. Contrôle des versions  
 ###     2.2.4. Formats de fichiers   
 ###     2.2.5. Structure des données  
@@ -238,7 +238,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ## 2.2. Bonne pratique #2: Organiser!
 
-### 2.2.2. Noms de fichiers/dossiers
+### 2.2.2. Noms de fichiers
 
 </br>
 
@@ -258,11 +258,11 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ## 2.2. Bonne pratique #2: Organiser!
 
-### 2.2.2. Noms de fichiers/dossiers
+### 2.2.2. Noms de fichiers
 
 </br>
 
-#### Établir des règles de nommage de fichiers/dossiers -> quelques conseils:
+#### Établir des règles de nommage -> quelques conseils:
 
 - Noms courts et descriptifs sans mots vides (+ de 31 caractères peut poser problème sur certains systèmes d’exploitation).  
 - Pas de signes diacritiques (accents, trémas, cédilles), de caractères spéciaux, de ponctuation, ni d’espaces.  
@@ -286,7 +286,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 </br>
 
-#### Définir des procédures de gestion de versions de l'ensemble de ses fichier -> quelques conseils:  
+#### Définir des procédures de gestion de versions -> quelques conseils:  
 
 1. De bonnes **règles de nommage** peuvent suffire:  
    - Inclure numéro de versions dans convention de nommage (v01, utiliser décimale pour changements mineurs v01.1).  
@@ -387,7 +387,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 **Quelques questions à se poser**:  
 - Backup de quoi? Qu'est-ce qu'on garde? *Déterminer ce que l’on fait de ses anciens fichiers (supprimer? archiver?)*  
 - Où?  
-- Quand? *Dépend de la fréquence des changements  (une fois par semaine? par mois?)*
+- Quand? *Dépend de la fréquence des changements  (une fois par semaine? par mois?)*  
 - Qui et comment? (si équipe)  
 - Pendant combien de temps?  
 - Obligation de destruction/conservation? *Définir une politique de conservation*  
