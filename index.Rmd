@@ -43,6 +43,10 @@ output:
    3. Documenter  
    4. Diffuser  
 
+<div style="large">
+### Troisième partie: discussion
+</div>
+
 ---
 
 ## 1. Données de recherche -> de quoi parle-t-on?
@@ -94,7 +98,7 @@ output:
 </div>
 - Augmenter la visibilité et l’impact de la recherche.  
 - Permettre la validation des résultats et la reproductibilité de la recherche = transparence et intégrité.  
-- Respecter les politiques des organismes subventionnaires ([Politique des trois organismes sur la gestion des données de recherche](https://www.science.gc.ca/eic/site/063.nsf/fra/h_97610.html)) et des éditeurs scientifiques ([Peer Reviewers' Openness Initiative (psychologie)](https://www.opennessinitiative.org/)).  
+- Respecter les politiques des organismes subventionnaires ([Politique des trois organismes sur la gestion des données de recherche](https://www.science.gc.ca/eic/site/063.nsf/fra/h_97610.html)) et des éditeurs scientifiques ([Peer Reviewers' Openness Initiative](https://www.opennessinitiative.org/)).  
 - Mais avant tout, c'est un investissement pour soi-même!  
 </br>
 
@@ -135,7 +139,7 @@ Nombreux facteurs à considérer:
 
 Il faut tout au long de sa recherche gérer ses données en se posant la question :   
 
-> De quoi aurait besoin un collègue qui voudrait reproduire mes résultats sans mon aide?  
+> Est-ce qu'un collègue serait capable de reproduire mes résultats sans mon aide?  
 
 <br>
 
@@ -151,7 +155,7 @@ Il faut tout au long de sa recherche gérer ses données en se posant la questio
 
 ## 2.1. Bonne pratique #1: Planifier!  
 
-- Beaucoup de questions qu’il vaut mieux se poser au départ: 
+- Bien gérer ses données implique beaucoup de questions qu’il vaut mieux se poser au départ: 
 
 
 > Quels types de données allez-vous recueillir, créer, acquérir? Dans quels formats de fichier vos données seront-elles recueillies? Comment vos données seront-elles  sauvegardées pendant votre recherche? Qui est responsable de quoi?   
@@ -196,6 +200,8 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 ###     2.2.5. Structure des données  
 ###     2.2.6. Stockage/préservation  
 
+</br>
+</br>
 </br>
 </br>
 </br>
@@ -312,7 +318,6 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 </br>
 
-- Rôle important dans la gestion et préservation de données. 
 - Au quotidien, on travaille avec le format de fichier correspondant au logiciel utilisé, mais le meilleur format pour la *préservation* n’est pas nécessairement le meilleur pour ses *analyses*, qui n’est pas nécessairement le meilleur pour la *diffusion.*
 
 
@@ -367,8 +372,10 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 <div class="justify-right"> 
 ![](images/lost-data.png)
+<div class="verytiny "> 
+[Lifewire](https://www.lifewire.com/ways-to-prevent-data-loss-3540224)
 </div>
-
+</div>
 </br>
 
 **Deux principales causes:**  
@@ -378,12 +385,12 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 <br>
 
 **Quelques questions à se poser**:  
-- Backup de quoi? Qu'est-ce qu'on garde? Déterminer ce que l’on fait de ses anciens fichiers (Supprimer? Archiver?)  
-- Quand? Dépend de la fréquence des changements  
-- Pendant combien de temps? Définir une politique de conservation   
+- Backup de quoi? Qu'est-ce qu'on garde? *Déterminer ce que l’on fait de ses anciens fichiers (supprimer? archiver?)*  
 - Où?  
+- Quand? *Dépend de la fréquence des changements  (une fois par semaine? par mois?)*
 - Qui et comment? (si équipe)  
-- Obligation de destruction/conservation? 
+- Pendant combien de temps?  
+- Obligation de destruction/conservation? *Définir une politique de conservation*  
 
 </br>
 
@@ -438,6 +445,10 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 <div class="justify-right"> 
 ![](images/Forside_DigitalBevaring.png)
+<div class="verytiny"> 
+[https://digitalbevaring.dk/](https://digitalbevaring.dk/)  
+
+</div>
 </div>
 
 <br>
@@ -470,10 +481,10 @@ N.B. L'UdeM n'offre pas d'espace de stockage sécurisé.
 - Expliquer ce qu'on a fait, où, quand, comment et pourquoi à chaque étape ayant mené à ses résultats.
 
 - Peut prendre différentes formes, le but est de produire une documentation:  
-  - **détaillée**  (mais pas trop)  
-  - **compréhensible** (pour des usagers motivés à réutiliser les données)  
-  - **maintenue à jour**   
-  - **format accessible**   
+  - **détaillée**  (mais pas trop).    
+  - **compréhensible** (pour des usagers motivés à réutiliser les données).    
+  - **maintenue à jour**.     
+  - **format accessible**.     
 
 <br>
 
@@ -588,8 +599,9 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 - Existe différents outils selon le langage de programmation utilisé (R, Python) mais le concept reste que l’on mélange dans un même document des blocs de code exécutable avec de la rédaction de texte à l’aide d’un langage de balisage (Markdown ou LaTeX) pour générer des documents en différents formats (word, html, pdf). 
 
 <div class="footer-note">
-[Intro à Rstudio](https://crlnp.github.io/intro-Rstudio/#/)
-[Atelier RMarkdown](https://crlnp.github.io/intro-rmarkdown/)
+[Intro à Rstudio](https://crlnp.github.io/intro-Rstudio/#/)  
+[Atelier RMarkdown](https://crlnp.github.io/intro-rmarkdown/)  
+[Capsules intro à R sur Google Colab](https://www.youtube.com/watch?v=66GQA9pa9i4&list=PL1K-7kmyXRXEGXrKXmMZ02IG1YvtKV-q6 )  
 </div>
 
 ## 2.4. Bonne pratique #4: Diffuser!
