@@ -1,7 +1,7 @@
 ---
 title: "Pour des données bien ordonnées <br> Trucs pratiques et partage d'expériences"
 author: "Caroline & David (Patenaude) <br> Bibliothèque des lettres et sciences humaines"
-date: "2022-05-13"
+date: "2022-05-20"
 output:
   slidy_presentation:
     footer: Caroline Patenaude, BLSH, 30 mai 2022, caroline.patenaude@umontreal.ca
@@ -78,62 +78,32 @@ output:
 [*INIS - Cycle de vie des données*](https://www.unil.ch/openscience/home/menuinst/open-research-data/les-donnees-de-recherche/cycle-de-vie-et-types-de-donnees.html)
 </div>
 
-## 3. Pourquoi la GDR? Avantages
+## 3. Pourquoi la GDR? 
+
+### Avantages
+
+
 
 - Développer de meilleures méthodes de travail comme une meilleure organisation de ses fichiers et une meilleure documentation de ses analyses.  
 - Éviter la perte ou la compromission de données.  
-- Faciliter le partage et la réutilisation des données.  
 - Encourager l’apprentissage d’outils qui facilitent les révisions, les corrections, les ajouts de nouvelles données (processus itératif).  
+- Faciliter le partage et la réutilisation des données.  
 - Faciliter la collaboration.   
-- Augmenter la visibilité et l’impact de la recherche.  
-
 <div class="justify-right"> 
-![](images/data_loss_55745.jpg)
+![](images/repro.png)
 </div>
-
-- Permettre la réplication et la validation des résultats = transparence et intégrité.  
-- Respecter les politiques des organismes subventionnaires.  
+- Augmenter la visibilité et l’impact de la recherche.  
+- Permettre la validation des résultats et la reproductibilité de la recherche = transparence et intégrité.  
+- Respecter les politiques des organismes subventionnaires ([Politique des trois organismes sur la gestion des données de recherche](https://www.science.gc.ca/eic/site/063.nsf/fra/h_97610.html)) et des éditeurs scientifiques ([Peer Reviewers' Openness Initiative (psychologie)](https://www.opennessinitiative.org/)).  
 - Mais avant tout, c'est un investissement pour soi-même!  
+</br>
 
-
-## 4. Enjeux de la reproductibilité
-
-<center>
-![](images/repro-crimino.jpg)
-</center>
 
 <div class="footer-note">
-[*1,500 scientists lift the lid on reproducibility*](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970)
-
-</div>
-
-## 5. GDR vs reproductibilité ?
-
-<img align="center" src="images/reproducibility_rdm.jpg">
-
-<div class="footer-note">
-[*Why research data management is critical for open science*](https://www.dorienhuijser.com/rdm-for-open-science/)
-
-</div>
-
-## 6. Initiatives pour changer la "culture" de la recherche 
-
-
-[*Slow Science*](https://slowscience.be/the-slow-science-manifesto-2/) ![](images/snails.png)
-
+[*1,500 scientists lift the lid on reproducibility*](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970)  
+[*Slow Science*](https://slowscience.be/the-slow-science-manifesto-2/)  
 [*Open Science*](https://osf.io/)  
-
-<br>
-
-<center>
-![](images/osf.png)
-</center>
-
-<br>
-
-- Gouvernementales: [Politique des trois organismes sur la gestion des données de recherche](https://www.science.gc.ca/eic/site/063.nsf/fra/h_97610.html)  
-- Nationales et institutionnelles: [Alliance de recherche numérique du Canada](https://alliancecan.ca/fr/services/gestion-des-donnees-de-recherche)  
-- Éditeurs et d'associations scientifiques (accès aux données et à la documentation): [DA-RT Principles (American Political Science Association)](https://www.dartstatement.org/), [AJPS Verification Policy](https://ajps.org/ajps-verification-policy/), [Peer Reviewers' Openness Initiative (psychologie)](https://www.opennessinitiative.org/).  
+</div>
 
 
 ## 7. Prioriser activités de GDR
@@ -186,7 +156,6 @@ Il faut tout au long de sa recherche gérer ses données en se posant la questio
 
 > Quels types de données allez-vous recueillir, créer, acquérir? Dans quels formats de fichier vos données seront-elles recueillies? Comment vos données seront-elles  sauvegardées pendant votre recherche? Qui est responsable de quoi?   
 
-</br>
 
 Tout commence avec un *Plan de gestion de données de recherche*:  
   
@@ -198,15 +167,44 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 ![](images/PGD.png)
 </center>
 
+</br> 
+</br> 
+<div class="footer-note">  
+[*Research Data Exit Checklist*](https://www.ideals.illinois.edu/handle/2142/111616)  
+</div> 
 
 ## 2.2. Bonne pratique #2: Organiser!
 
+</br> 
+
 ### S’armer contre le chaos!  
 
+<div class="justify-right"> 
+![](images/final.png)
+</div>
 
-<center> 
-![](images/phd101212s.gif)
-</center>
+
+
+</br>
+
+
+
+</br>
+
+###     2.2.1. Structure de dossiers  
+###     2.2.2. Noms de fichiers/dossiers  
+###     2.2.3. Contrôle des versions  
+###     2.2.4. Formats de fichiers   
+###     2.2.5. Structure des données  
+###     2.2.6. Stockage/préservation  
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
 <div class="footer-note">  
 [*info: DataverseNO - Prepare your data*](https://site.uit.no/dataverseno/deposit/prepare//)  
@@ -217,13 +215,13 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ### 2.2.1.	Structure de dossiers
 
-- Créer un dossier *Projet* contenant tous les fichiers 
+- Créer un dossier *Projet* contenant tous les fichiers.   
 
 -	Structurer en **sous dossiers** pour bien diviser les différents types de fichiers produits (code, graphiques, résultats, données, documentation...).
 
 -	TOUJOURS séparer les **données brutes** (fichier sacré!) des *outputs* (données dérivées/modifiées, générées par analyses...).
 
-- Différents systèmes possibles (par cours, par projet, par fichiers...).
+- Différents systèmes possibles (par cours, par projet, par fichier...).
 
 <center>
 ![](images/desk.png)
@@ -237,9 +235,10 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ### 2.2.2. Noms de fichiers/dossiers
 
+</br>
 
 - Voir les noms de fichiers comme des *métadonnées* > pas seulement un identifiant mais une description du contenu.  
-- L’important est de définir une stratégie et de l’appliquer de façon constante.  
+- L’important est de définir dès le départ une stratégie et de l’appliquer de façon constante : convention de nommage de fichiers.     
 
 <center>
 ![](images/catalog.png)
@@ -254,7 +253,9 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ## 2.2. Bonne pratique #2: Organiser!
 
-### 2.2.3. Noms de fichiers/dossiers
+### 2.2.2. Noms de fichiers/dossiers
+
+</br>
 
 #### Établir des règles de nommage de fichiers/dossiers -> quelques conseils:
 
@@ -266,6 +267,9 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 - Commencer par du numérique pour faciliter le tri (ordre chronologique ou logique).  
 - Bref, des noms significatifs, faciles à chercher, extraire, trier.  
 
+</br>
+</br>
+</br>
 
 <div class="footer-note">
 [*Research Projects: File Structure and NamingPrompt Sheet*](https://app.box.com/s/xiipln16t84y1ldwp5c7iefd395sypt4)
@@ -273,22 +277,21 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ## 2.2. Bonne pratique #2: Organiser!
 
-### 2.2.4. Contrôle des versions
+### 2.2.3. Contrôle des versions
+
+</br>
 
 #### Définir des procédures de gestion de versions de l'ensemble de ses fichier -> quelques conseils:  
 
 1. De bonnes **règles de nommage** peuvent suffire:  
    - Inclure numéro de versions dans convention de nommage (v01, utiliser décimale pour changements mineurs v01.1).  
    - Créer un document où l’on documente la création de nouvelles versions et leur contenu (date, auteur, résumé des changements).  
-   - Documenter une entente relative à la création de nouvelles versions lors de travail d’équipe (quels changements nécessitent la création d’une nouvelle version).   
-   
+   - Travail d'équipe: documenter une entente relative à la création de nouvelles versions (quels changements nécessitent la création d’une nouvelle version).   
    <br>
    
 2. **Outils de contrôle** de versions pour garder une trace et un historique des anciennes versions de ses fichiers   
-   - [Dropbox](https://help.dropbox.com/fr-fr/files-folders/restore-delete/version-history-overview) et [Google Drive](https://support.google.com/drive/answer/2409045?co=GENIE.Platform%3DDesktop&hl=en#) offrent un contrôle de versions minimal.
-   
-    <br> 
- - Pour un contrôle plus serré de projet plus volumineux, utiliser un outil de versionnage comme [Git](https://git-scm.com/)*.   
+   - [Dropbox](https://help.dropbox.com/fr-fr/files-folders/restore-delete/version-history-overview) et [Google Drive](https://support.google.com/drive/answer/2409045?co=GENIE.Platform%3DDesktop&hl=en#) offrent un contrôle minimal de versions  ([OneDrive](https://support.microsoft.com/en-us/office/Files-in-OneDrive-c6ecef2f-c5cc-4415-b677-e2d2151c3c29#ID0EAABAAA=Manage&ID0EBBF=Secure,_protect,_and_restore)).   
+   - Pour un contrôle plus serré de projets plus volumineux, utiliser un outil de versionnage comme [Git](https://git-scm.com/)*.   
 
 <div class="justify-right"> 
 ![](images/git.png)
@@ -306,7 +309,9 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ## 2.2. Bonne pratique #2: Organiser!
 
-### 2.2.5. Formats de fichiers  
+### 2.2.4. Formats de fichiers  
+
+</br>
 
 - Rôle important dans la gestion et préservation de données. 
 - Au quotidien, on travaille avec le format de fichier correspondant au logiciel utilisé, mais le meilleur format pour la *préservation* n’est pas nécessairement le meilleur pour ses *analyses*, qui n’est pas nécessairement le meilleur pour la *diffusion.*
@@ -322,10 +327,11 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 - Privilégier les formats non-propriétaires (PDF/A, CSV, TIFF, TXT, XML)  
 - Aussi souhaitable de diffuser ses données dans un format propriétaire lorsque celui-ci est largement utilisé par sa communauté scientifique (Stata, SPSS).   
-- Compresser les fichiers de son dossier projet pour faciliter le partage et l'archivage.
 
 <br>
-**N.B.** Toujours bien vérifier la présence d'erreurs ou de pertes d'information suite à une conversion de formats ou une compression de fichiers.   
+**N.B.** Toujours vérifier la présence d'erreurs ou de pertes d'information suite à une conversion de formats ou une compression de fichiers.   
+
+</br> 
 
 <div class="footer-note">
 - [*Recommended formats (UK Data Service)*](https://ukdataservice.ac.uk/learning-hub/research-data-management/format-your-data/recommended-formats/)  
@@ -336,7 +342,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ## 2.2. Bonne pratique #2: Organiser!
 
-### 2.2.6. Structure des données
+### 2.2.5. Structure des données
 
 <br>
 
@@ -348,23 +354,28 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 - Principes de [*Tidy Data*](https://vita.had.co.nz/papers/tidy-data.pdf) (Hadley Wickham)
 
-- Outil de nettoyage: https://openrefine.org/
+- Outil de nettoyage: https://openrefine.org/  
+
+- Document de formation [*Open Refine: Au secours des désordonnée*s](https://crlnp.github.io/openrefine/)  
 
 ## 2.2. Bonne pratique #2: Organiser!
 
-### 2.2.7. Stockage/préservation
+### 2.2.6. Stockage/préservation
 
-#### Se prémunir contre les désastes (perte de données, corruption de fichiers, formats obsolètes) pendant sa recherche (*stockage*) et après (*préservation*).
 <br>
+
+#### Se prémunir contre les désastres (perte de données, corruption de fichiers, formats obsolètes) pendant sa recherche (*stockage*) et après (*préservation*).
+
+<div class="justify-right"> 
+![](images/lost-data.png)
+</div>
+
+</br>
 
 **Deux principales causes:**  
-1. **Humaine** : suppressions accidentelles, réécriture, simples copier/coller...  
+1. **Humaine** : suppressions accidentelles, réécriture, copier/coller...  
 2. **Infrastructure** : virus, bugs divers d'applications/systèmes/disques...  
 <br>
-
-<center>
-![](images/phd103003s.gif)
-</center>
 <br>
 
 **Quelques questions à se poser**:  
@@ -375,6 +386,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 - Qui et comment? (si équipe)  
 - Obligation de destruction/conservation? 
 
+</br>
 
 <div class="footer-note ">
 [Five steps to decide what data to keep](https://www.dcc.ac.uk/guidance/how-guides/five-steps-decide-what-data-keep)
@@ -383,7 +395,7 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ## 2.2. Bonne pratique #2: Organiser!
 
-### 2.2.8. Stockage/préservation
+### 2.2.6. Stockage/préservation
 
 <br>
 
@@ -412,16 +424,17 @@ Tout commence avec un *Plan de gestion de données de recherche*:
 
 ## 2.2. Bonne pratique #2: Organiser!
 
-### 2.2.8. Stockage/préservation
+### 2.2.6. Stockage/préservation
 
-### *Encryption* -> Chiffrement
+***Encryption* -> Chiffrement**: Fichiers rendus illibles par l'utilisation d'algorithmes qui codent les données afin de les protéger grâce à un mot de passe. Sans le mot de passe, personne ne peut accéder au contenu.   
 
-Fichiers rendus illibles par l'utilisation d'algorithmes qui codent les données afin de les protéger grâce à un mot de passe. Sans le mot de passe, personne ne peut accéder au contenu.   
-
- - Toutes données sensibles devraient être encryptées, qu'elles soient sur un portable, une clé USB, espace nuage.  
+ - Toutes données sensibles devraient être encryptées, qu'elles soient sur un portable, une clé USB, espace nuage.   
+ 
+ > "Research files with PII or other confidential information should always be compressed and encrypted before they are transferred from one location to another. This is especially important when transferring files as attachments to email or as files on physical media such as CDs or flash memory drives."  
+ 
  - La protection d'un portable par mot de passe n'est pas suffisante.  
 
-> "Research files with PII or other confidential information should always be compressed and encrypted before they are transferred from one location to another.   This is especially important when transferring files as attachments to email or as files on physical media such as CDs or flash memory drives."
+
 
 
 <div class="justify-right"> 
@@ -438,8 +451,8 @@ Fichiers rendus illibles par l'utilisation d'algorithmes qui codent les données
   - L'encryption peut aussi se faire par le biais d'un outil de compression (7-zip).    
   - Certains logiciels comme SPSS, Office (Word, Excel,...) offrent une option de chiffrement à l'enregistrement du fichier.   
   - De nombreux logiciels sont disponibles comme BitLocker (Windows), FileVault (Mac).   
-  - Créer des dossiers encryptés: [VeraCrypt](https://VeraCrypt.codeplex.com)/, [Cryptomator](https://cryptomator.org/).  
-
+  - Créer des dossiers encryptés: [VeraCrypt](https://VeraCrypt.codeplex.com), [Cryptomator](https://cryptomator.org/).  
+<br>
 
 <div class="footer-note ">
 N.B. L'UdeM n'offre pas d'espace de stockage sécurisé.  
@@ -451,7 +464,9 @@ N.B. L'UdeM n'offre pas d'espace de stockage sécurisé.
 
 ## 2.3. Bonne pratique #3: Documenter!
 
-### Documentation + *métadonnées* ("Données sur les données")
+### Documentation + *métadonnées* ("données sur les données")
+
+-  Des données sans *métadonnées* sont inutiles! : essentielles pour comprendre, repérer et utiliser des données.    
 
 - Expliquer ce qu'on a fait, où, quand, comment et pourquoi à chaque étape ayant mené à ses résultats.
 
@@ -460,14 +475,6 @@ N.B. L'UdeM n'offre pas d'espace de stockage sécurisé.
   - **compréhensible** (pour des usagers motivés à réutiliser les données)  
   - **maintenue à jour**   
   - **format accessible**   
-
-<br>
-
-<div class="full-width">
-<div class="content-box-border">
-  Des données sans *métadonnées* sont inutiles! : essentielles pour comprendre, repérer et utiliser des données.  
-</div>
-</div>
 
 <br>
 
@@ -515,7 +522,7 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 
 ## 2.3. Bonne pratique #3: Documenter!
 
-### 2.3.2. Les Dictionnaires de codes / **Codebooks**
+### 2.3.2. Les Dictionnaires de codes / *Codebooks*
 
 <div class="justify-right"> 
 <div class="verytiny"> 
@@ -525,8 +532,10 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 
 </div>
 
+<br>
+
 - Information détaillée sur la structure et le contenu d'un fichier de données.  
-- Description technique et conceptuelle précise de chaque variable et valeur de variables.  
+- Description technique et conceptuelle précise de chaque variable et valeur de variables (nom, étiquette, format,description,  valeurs, codes, valeurs manquantes, ...).  
 - Débute généralement par une description de l'étude: titre, responsables, table des matières...  
 - Peut inclure de l'information méthodologique plus précise: échantillonnage, pondération, ...  
 - Peut inclure les tables de fréquences.  
@@ -544,6 +553,7 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 - [Métadonnées et documentation des enquêtes dans Odesi](http://odesi2.scholarsportal.info/webview/)    
 - [Agency for Healthcare Research and Quality -*What is a codebook?*](https://www.icpsr.umich.edu/icpsrweb/content/shared/ICPSR/faqs/what-is-a-codebook.html)  
 - [University of Wisconsin Data Services - *Data Management: Data Dictionaries*](https://www.youtube.com/watch?v=Fe3i9qyqPjo)(video)  
+- [ICPSR - What is a Codebook?](https://www.icpsr.umich.edu/web/ICPSR/cms/1983)  
 </div>
 
 
@@ -557,9 +567,10 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 ![](images/meta.png )
 </center>
 
-## 2.3. Bonne pratique #4: Documenter!
+## 2.3. Bonne pratique #3: Documenter!
 
 ### 2.3.4. Documenter son code  
+</br> 
 
 - **Tout faire avec un script**, de l'importation des données à la présentation des résultats en passant par les manipulations et l'analyse
 
@@ -577,12 +588,16 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 
 - Existe différents outils selon le langage de programmation utilisé (R, Python) mais le concept reste que l’on mélange dans un même document des blocs de code exécutable avec de la rédaction de texte à l’aide d’un langage de balisage (Markdown ou LaTeX) pour générer des documents en différents formats (word, html, pdf). 
 
+<div class="footer-note">
+[Intro à Rstudio](https://crlnp.github.io/intro-Rstudio/#/)
+[Atelier RMarkdown](https://crlnp.github.io/intro-rmarkdown/)
+</div>
 
-## 2.4. Bonne pratique #5: Diffuser!
+## 2.4. Bonne pratique #4: Diffuser!
 
 <img align="right" src="images/fair2.png"> 
 
-### Pourquoi « ouvrir » ses données?
+### 2.4.1. Pourquoi « ouvrir » ses données?
 
 –	De plus en plus d’éditeurs, d’organismes gouvernementaux et de communautés scientifiques le suggèrent ou même l’imposent.    
 
@@ -608,9 +623,9 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 - [Outils pour les données sensibles du réseau Portage](https://portagenetwork.ca/fr/nouvelles/nouveaux-outils-pour-les-donnees-sensibles/)  
 </div>
 
-## 2.4. Bonne pratique #5: Diffuser!
+## 2.4. Bonne pratique #4: Diffuser!
 
-### Conformité aux lois et à l'éthique: données sensibles
+### 2.4.2. Conformité aux lois et à l'éthique: données sensibles
 
 - Difficile d'avoir l'heure juste en matière de protection de la confidentialité.    
 - Différentes perspectives parfois contradictoires: approche normative (EPTC2 - politique fédérale d'éthique de la recherche) vs juridique (droit relatif à chaque pays ou province - surtout provincial).    
@@ -644,7 +659,10 @@ N.B. Pour les données secondaires, inclure toute l’information nécessaire su
 </div>
 
 
-## Pour aller plus loin...
+
+## Merci!
+
+### Pour aller plus loin...
 
 
 
