@@ -29,10 +29,7 @@ output:
   1. Données de recherche -> de quoi parle-t-on?  
   2. Gestion des données et cycle de vie de la recherche  
   3. Pourquoi la GDR? Avantages  
-  4. Enjeux de la reproductibilité  
-  5. GDR vs Reproductibilité ?  
-  6. Initiatives pour changer la “culture” de la recherche  
-  7. Prioriser ses activités de GDR 
+  4. Prioriser ses activités de GDR 
 
 <div style="large">
 ### Deuxième partie: quelques bonnes pratiques
